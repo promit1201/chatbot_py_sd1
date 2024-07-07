@@ -1,0 +1,160 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hi there", "Hey there", "Hello there", "Howdy", "Greetings"],
+        "responses": ["Hello!", "Hi there!", "Greetings! How can I help you today?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Farewell", "See you", "Catch you later", "Bye bye", "Goodnight"],
+        "responses": ["Goodbye!", "See you later!", "Have a great day!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you very much", "I appreciate it", "Much appreciated", "Thanks so much", "Thanks a bunch"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!"],
+        "context": [""]
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What is your age?", "Tell me your age", "How many years old are you?", "When were you created?"],
+        "responses": ["I am a chatbot, I don't have an age.", "I was created recently."],
+        "context": [""]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Tell me your name", "What's your name?", "Who am I talking to?"],
+        "responses": ["I am ChatGPT.", "You can call me ChatGPT."],
+        "context": [""]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather today?", "Weather forecast", "Is it going to rain?", "What's the weather forecast?", "Current weather conditions"],
+        "responses": ["I can't check the weather right now, but you can use a weather app or website for the latest information."],
+        "context": [""]
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Current time", "Tell me the time", "What's the time now?", "Time please"],
+        "responses": ["I can't check the time right now, but you can use a clock or your device's time display."],
+        "context": [""]
+      },
+      {
+        "tag": "date",
+        "patterns": ["What's the date today?", "Current date", "Tell me the date", "What's today's date?", "Date please"],
+        "responses": ["I can't check the date right now, but you can use a calendar or your device's date display."],
+        "context": [""]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh", "I want to hear a joke", "Do you know any jokes?", "Tell a funny joke"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!"],
+        "context": [""]
+      },
+      {
+        "tag": "news",
+        "patterns": ["What's the news today?", "Tell me the news", "Any news updates?", "Current news", "Latest news"],
+        "responses": ["I can't check the news right now, but you can use a news app or website for the latest updates."],
+        "context": [""]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you?", "Where are you located?", "Tell me your location", "What's your location?", "Where is your base?"],
+        "responses": ["I am a virtual assistant, so I don't have a physical location."],
+        "context": [""]
+      },
+      {
+        "tag": "help",
+        "patterns": ["I need help", "Can you help me?", "Help me", "Assistance please", "Can you assist me?"],
+        "responses": ["Sure, I'm here to help! What do you need assistance with?", "How can I assist you today?"],
+        "context": [""]
+      },
+      {
+        "tag": "hobby",
+        "patterns": ["What's your hobby?", "Do you have any hobbies?", "Tell me about your hobbies", "What do you do for fun?"],
+        "responses": ["As a chatbot, I don't have hobbies, but I enjoy helping you with your questions!"],
+        "context": [""]
+      },
+      {
+        "tag": "favorite_color",
+        "patterns": ["What's your favorite color?", "Do you have a favorite color?", "Tell me your favorite color", "What's your color preference?"],
+        "responses": ["As a chatbot, I don't have preferences, but blue is a popular choice!"],
+        "context": [""]
+      },
+      {
+        "tag": "food",
+        "patterns": ["What's your favorite food?", "Do you have a favorite food?", "Tell me your favorite food", "What's your favorite dish?"],
+        "responses": ["As a chatbot, I don't eat food, but pizza is a favorite for many people!"],
+        "context": [""]
+      },
+      {
+        "tag": "language",
+        "patterns": ["What languages do you speak?", "Can you speak other languages?", "Tell me the languages you know", "What languages are you fluent in?"],
+        "responses": ["I can understand and respond in multiple languages. How can I assist you?"],
+        "context": [""]
+      },
+      {
+        "tag": "chatbot",
+        "patterns": ["What is a chatbot?", "Tell me about chatbots", "How do chatbots work?", "Explain what a chatbot is"],
+        "responses": ["A chatbot is a computer program designed to simulate conversation with human users, especially over the Internet."],
+        "context": [""]
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who made you?", "Tell me about your creator", "Who developed you?"],
+        "responses": ["I was created by OpenAI, a research organization dedicated to developing friendly AI."],
+        "context": [""]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies?", "Do you have any hobbies?", "Tell me your hobbies", "What do you enjoy doing?"],
+        "responses": ["As a chatbot, I don't have hobbies, but I enjoy helping you with your questions!"],
+        "context": [""]
+      },
+      {
+        "tag": "sports",
+        "patterns": ["What's your favorite sport?", "Do you like sports?", "Tell me your favorite sport", "What sports do you follow?"],
+        "responses": ["As a chatbot, I don't have preferences, but soccer and basketball are very popular!"],
+        "context": [""]
+      },
+      {
+        "tag": "music",
+        "patterns": ["What's your favorite music?", "Do you like music?", "Tell me your favorite music", "What kind of music do you enjoy?"],
+        "responses": ["As a chatbot, I don't have preferences, but many people enjoy pop and rock music!"],
+        "context": [""]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["What's your favorite movie?", "Do you like movies?", "Tell me your favorite movie", "What kind of movies do you like?"],
+        "responses": ["As a chatbot, I don't watch movies, but many people love action and comedy films!"],
+        "context": [""]
+      },
+      {
+        "tag": "books",
+        "patterns": ["What's your favorite book?", "Do you like books?", "Tell me your favorite book", "What kind of books do you enjoy?"],
+        "responses": ["As a chatbot, I don't read books, but many people enjoy fiction and mystery novels!"],
+        "context": [""]
+      },
+      {
+        "tag": "travel",
+        "patterns": ["Do you like to travel?", "What's your favorite travel destination?", "Tell me about your travels", "Do you enjoy traveling?"],
+        "responses": ["As a chatbot, I don't travel, but exploring new places sounds exciting!"],
+        "context": [""]
+      },
+      {
+        "tag": "pets",
+        "patterns": ["Do you have any pets?", "What's your favorite animal?", "Tell me about your pets", "Do you like animals?"],
+        "responses": ["As a chatbot, I don't have pets, but dogs and cats are very popular!"],
+        "context": [""]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What are your hobbies?", "Do you have any hobbies?", "Tell me your hobbies", "What do you enjoy doing?"],
+        "responses": ["As a chatbot, I don't have hobbies, but I enjoy helping you with your questions!"],
+        "context": [""]
+      }
+    ]
+}
